@@ -1,7 +1,11 @@
-# This script is adapted from the Adafruit Tutorial "Playing sounds and
+# This script is uses the program saying_sound_using_buttons.py adapted from
+# Mike Barela's tutorial on Adafruit.com:  Speech Synthesis on the Raspberry Pi
+# https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/introductionhttps://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/introduction
+# Mike Barela's code is located at https://raw.githubusercontent.com/adafruit/Adafruit_Learning_System_Guides/master/Speech_Synthesis_on_the_Raspberry_Pi/saying_sounds_using_buttons.py
+# Mike's tutorial references the Adafruit Tutorial "Playing sounds and
 # using buttons with Raspberry Pi" by Michael Sklar
 # The code is located at https://raw.githubusercontent.com/adafruit/Adafruit_Learning_System_Guides/master/Playing_Sounds_and_Using_Buttons_with_Raspberry_Pi/audio-button.py
-# It has been modified to allow text-to-speech by a Billy Bass toy by using the events.txt file created 
+# It has been modified to allow text-to-speech by a Billy Bass toy by using the events.txt file created by BillyBassScrapper.py, 
 # a python script that pulls events data down from a meetup site.
 # Festival text-to-speech package:  http://festvox.org/festival/
 # From the RPi command line run: sudo apt-get install festival -y
