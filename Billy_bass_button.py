@@ -1,6 +1,6 @@
 # This script is uses the program saying_sound_using_buttons.py adapted from
 # Mike Barela's tutorial on Adafruit.com:  Speech Synthesis on the Raspberry Pi
-# https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/introductionhttps://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/introduction
+# https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/introduction
 # Mike Barela's code is located at https://raw.githubusercontent.com/adafruit/Adafruit_Learning_System_Guides/master/Speech_Synthesis_on_the_Raspberry_Pi/saying_sounds_using_buttons.py
 # Mike's tutorial references the Adafruit Tutorial "Playing sounds and
 # using buttons with Raspberry Pi" by Michael Sklar
