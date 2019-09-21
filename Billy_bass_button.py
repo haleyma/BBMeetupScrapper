@@ -45,7 +45,7 @@ while True:
         os.system('festival --tts events.txt')
 
 #    if not button2.value:
-#        os.system('echo "I, , , Some rescue!" | festival --tts')
+#        os.system('date "%I:%M %p" | festival --tts')
 
 #    if not button3.value:
 #        os.system('echo "I, , , I find your lack of faith disturbing." | festival --tts')
