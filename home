@@ -36,11 +36,11 @@ while True:
     
     if not button1.value:
         # pipe text to festival
-       # os.system('echo "I, , , Today is " | festival --tts')
+        os.system('echo "I, , , Today is " | festival --tts')
 	# use date to get todays date and time and pipe to festival
-       # os.system('date "+%A %B %d %Y %I:%M %P" | festival --tts')
+        os.system('date "+%A %B %d %Y %I:%M %P" | festival --tts')
        # os.system('date "+%H%M" | festival --tts')
-       # os.system('echo "I, , , Upcoming Events at Decatur Makers from Meetup dot com,  include, ,  "| festival --tts')
+        os.system('echo "I, , , Upcoming Events at Decatur Makers from Meetup dot com,  include, ,  "| festival --tts')
        # read events.txt with festival
         os.system('festival --tts events.txt')
 

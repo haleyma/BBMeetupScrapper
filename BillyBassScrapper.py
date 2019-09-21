@@ -42,6 +42,11 @@ print(data)
 #  format the date/time so that it will sound good spoken by the Festival package
 #  use "w" to overwrite previous info in events.txt
 f = open("events.txt", "w")
+thisDay = datetime.datetime.now().strftime('%A, %B %d')
+f.write('\n' + 'Today is ' + thisDay)
+f.write('\n')
+f.write('\n' + 'Upcoming events for Decatur Makers from Meetup dot com include:')
+f.write('\n')
 for i in range(0,len(response.json())):
    ld = data[i]['local_date'] 
    lt = data[i]['local_time']
